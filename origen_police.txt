@@ -3,7 +3,7 @@
     "updates": [
         "New tow truck system",
         "Drag player system for carry injured officers",
-        "Fixes",
-        "More enhancements and improvements"
+        "Fixed issues with the pma-voice and multifrequencies",
+        "General fixes"
     ]
 }
