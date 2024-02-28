@@ -1,9 +1,4 @@
 {
     "version": "2.0.2",
-    "updates": [
-        "New tow truck system",
-        "Drag player system for carry injured officers",
-        "Fixed issues with the pma-voice and multifrequencies",
-        "General fixes"
-    ]
+    "updates": []
 }
