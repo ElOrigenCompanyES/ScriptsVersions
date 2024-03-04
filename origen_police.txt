@@ -1,4 +1,6 @@
 {
-    "version": "2.0.2",
-    "updates": []
+    "version": "2.0.3",
+    "updates": [
+        "Some fixes related to dispatch, radio, and image logs."
+    ]
 }
