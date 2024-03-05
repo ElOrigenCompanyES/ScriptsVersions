@@ -1,6 +1,9 @@
 {
     "version": "2.0.3",
     "updates": [
-        "Some fixes related to dispatch, radio, and image logs."
+        "Corrections in images and icons.",
+        "Added the ability to grant and revoke licenses in the civilians panel.",
+        "Opened the function to check if a player can search another.",
+        "Other changes and improvements in general."
     ]
 }
