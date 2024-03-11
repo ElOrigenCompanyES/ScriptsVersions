@@ -1,9 +1,6 @@
 {
-    "version": "2.0.4",
+    "version": "2.0.5",
     "updates": [
-        "Corrections in images and icons.",
-        "Added the ability to grant and revoke licenses in the civilians panel.",
-        "Opened the function to check if a player can search another.",
-        "Other changes and improvements in general."
+        "General fixes."
     ]
 }
