@@ -1,7 +1,4 @@
 {
-    "version": "2.0.6",
-    "updates": [
-        "General bug fixes.",
-        "Check our Discord for more information."
-    ]
+    "version": "2.0.8",
+    "updates": []
 }
