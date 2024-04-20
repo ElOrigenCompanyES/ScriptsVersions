@@ -1,6 +1,26 @@
 {
-    "version": "2.1.0",
+    "version": "2.2.0",
     "updates": [
-        "Check discord for more information."
+        "- Nueva documentación más detallada de la configuración y los exports existentes(https://docs.origennetwork.store/origen-police)",
+        "- Arreglado el problema por el que el dueño de los vehículos eran nombres random",
+        "- Arreglado un error al enviar un vector4 como posición a la alerta en vez de un vector3",
+        "- Hemos agregado algunas comprobaciones para evitar errores en funciones de obtener información sobre el jugador(telefono, propiedades, licencias, nacionalidad)",
+        "- Hemos agregado soporte a las apartamentos de qbcore y esx default para mostrarlos en la lista de propiedades de cada ciudadano",
+        "- Agregado dos nuevos eventos al entrar y al salir de la federal `origen_police:client:OnFederalJoin` y `origen_police:client:OnFederalLeave`",
+        "- Arreglado un error que sucedía al cachear a una persona teniendo una versión desactualizada del esx_progressbar",
+        "- Agregada una nueva opción para mostrar la id de la persona que ha enviado la alerta `playerID` como un bool(true/false)",
+        "- Separados los archivos custom en varios para reducir cambios a la hora de aplicar nuevas actualizaciones",
+        "- Arreglada la detección del género del personaje, siempre mostraba los outfits de hombre",
+        "- Añadido un warn cuando no estén configurados los outfits correctamente y un agente no pueda ver ningún outfit",
+        "- Añadida compatibilidad ESX para la nacionalidad del origen_titlemenu",
+        "- Añadido un warn cuando un jugador tenga un job que no esté registrado en base de datos para evitar futuros problemas",
+        "- Se ha resuelto el error `attemt to index a nil value, field(PlayerData)`",
+        "- Añadido el comando vehicleinto(meter/sacar del vehículo a una persona) a la lista de binds",
+        "- Añadido soporte a la comisaría breze-mrpd gracias a <@567184410315718666>",
+        "- Se ha cambiado la forma con la que el script envia los colores del rpol y ahora ya deberían de poder mostrarse correctamente en el chat y en el chat interno de la radio",
+        "- Añadida visión térmica a la cámara del helicóptero",
+        "- Bloqueada las interacciones al estar dentro de vehículos",
+        "- Ahora cuando se contrate un nuevo policía el script mostrará una lista con todos los rangos disponibles para asignarle al nuevo policía(antes le asignaba por defecto el 0)",
+        "- Vuelta a una versión más antigua de pma-voice para evitar problemas con llamadas, etc del lb-phone"
     ]
 }
