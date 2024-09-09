@@ -1,0 +1,6 @@
+{
+    "version": "1.0.4",
+    "updates": [
+        "Enable option to configure custom garages"
+    ]
+}
