@@ -1,4 +1,7 @@
 {
-    "version": "1.0.0",
-    "updates": []
+    "version": "1.0.1",
+    "updates": [
+        "The error when retrieving the job rank that treated it as a string was fixed",
+        "The door state issue when restarting the server was fixed; it is now saved, and by default, it is either closed or open"
+    ]
 }
