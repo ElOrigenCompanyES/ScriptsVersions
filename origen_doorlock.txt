@@ -1,7 +1,6 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "updates": [
-        "The error when retrieving the job rank that treated it as a string was fixed",
-        "The door state issue when restarting the server was fixed; it is now saved, and by default, it is either closed or open"
+        "Errors with the password lock system have been fixed."
     ]
 }
