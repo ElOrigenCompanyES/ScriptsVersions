@@ -1,4 +1,22 @@
 {
-    "version": "1.0.0",
-    "updates": []
+    "version": "1.0.1",
+    "comment": "(We recommend to do a clean install of the script)",
+    "updates": [
+        {
+            "type": "^2ADD",
+            "changes": [
+                "Add a section to set custom events to perform different data updates such as a job change (^3config/custom_events.lua^0)",
+                "New plate generation system, with a simple way to create different patterns",
+                "A variable called ^3Config.Currency^0 has been added to the configuration, in it you can set the currency to be used to buy/sell contracts and if you want to use the option to transfer it within the nui (related to the next point)",
+                "Now you will see the amount of currency that is used in the system to purchase/sell contracts"
+            ]
+        },
+        {
+            "type": "^3FIX",
+            "changes": [
+                "Fixed different errors when using the market system and contract offer system",
+                "Fixed different errors when sending contracts from the creation menu"
+            ]
+        }
+    ]
 }
