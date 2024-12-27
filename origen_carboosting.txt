@@ -9,6 +9,7 @@
                 "New plate generation system, with a simple way to create different patterns",
                 "A variable called ^3Config.Currency^0 has been added to the configuration, in it you can set the currency to be used to buy/sell contracts and if you want to use the option to transfer it within the nui (related to the next point)",
                 "Now you will see the amount of currency that is used in the system to purchase/sell contracts"
+                "Now you can set multiple vehicle models for a single contract, the assigned vehicle will be randomly selected"
             ]
         },
         {
