@@ -1,7 +1,6 @@
 {
-    "version": "1.0.5",
+    "version": "1.0.6",
     "updates": [
-        "The drug sales system has been fixed so that when an NPC rejects a sale, it no longer prevents selling again.",
-        "Other minor bugs have been fixed."
+        "Check updates in Discord"
     ]
 }
