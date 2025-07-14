@@ -1,0 +1,19 @@
+{
+    "version": "1.0.1",
+    "updates": [
+        {
+            "type": "^2ADD",
+            "changes": [
+                "Added ability to customize command name for opening garage management panel",
+                "Added ability to configure vehicle status numbers",
+                "Added shared garage option for garages with interiors"
+            ]
+        },
+        {
+            "type": "^3FIX",
+            "changes": [
+                "Fixed garage loading issue on initial startup"
+            ]
+        }
+    ]
+}
