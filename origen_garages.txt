@@ -1,4 +1,8 @@
 {
-    "version": "1.0.1",
-    "updates": []
+    "version": "1.0.2",
+    "updates": [
+        "Fixed an issue with vehicle filtering in impound-type garages",
+        "Added the ability to set custom images for vehicles by placing them inside the ui/vehicles folder",
+        "Added the option to configure the interaction distance for drop points",
+    ]
 }
