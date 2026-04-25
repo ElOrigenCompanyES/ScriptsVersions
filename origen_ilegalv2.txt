@@ -1,6 +1,21 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "updates": [
-        "Check updates in Discord"
+        {
+            "type": "^2ADD",
+            "changes": [
+                "Custom toast notification system for announcements panel",
+                "Unread badge indicator on the announcements tab in the panel"
+            ]
+        },
+        {
+            "type": "^3FIX",
+            "changes": [
+                "Enforced strict price range on drug sales, removed level-based price scaling",
+                "Replaced ox_lib dialog with custom NUI modal in the bank point",
+                "Fixed deposit not executing correctly in the bank point",
+                "Raised bank point marker offset to avoid z-fighting"
+            ]
+        }
     ]
 }
