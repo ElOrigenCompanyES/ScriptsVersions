@@ -1,14 +1,20 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "updates": [
         {
             "type": "^3FIX",
             "changes": [
-                "Fixed garage recover callback validation, added server-side active vehicle check and map waypoint",
-                "Fixed missing properties column in origen_gang_vehicles table",
-                "Fixed admin panel sanctions not fetching synchronously causing panel to not render on open",
-                "Fixed inventory qb-inventory version not initializing immediately on load and handling hot-restart",
-                "Fixed weed lab points and IPL not initializing on enter due to mismatched lifecycle events"
+                "Fixed quick menu search action not working with ox_inventory, added customizable dead/cuffed gate",
+                "Fixed radio suppressing no-radio notification on menu open, now only shows on tab switch",
+                "Fixed admin panel gang config limits always resetting to default values",
+                "Fixed inventory RegisterStash implementation and OpenStash relay flow for qs-inventory",
+                "Fixed admin vehicle catalog edit/delete failing due to undefined gangId in server callbacks"
+            ]
+        },
+        {
+            "type": "^5FEAT",
+            "changes": [
+                "Added click-to-expand detail modal for announcements in gang and admin panels"
             ]
         }
     ]
