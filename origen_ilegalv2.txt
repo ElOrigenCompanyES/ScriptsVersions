@@ -1,11 +1,14 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "updates": [
         {
             "type": "^3FIX",
             "changes": [
-                "Fixed crash on resource restart caused by Bridge.Framework being nil in clothing bridges",
-                "Fixed undefined bind parameter error when updating gang color or label from admin panel"
+                "Fixed garage recover callback validation, added server-side active vehicle check and map waypoint",
+                "Fixed missing properties column in origen_gang_vehicles table",
+                "Fixed admin panel sanctions not fetching synchronously causing panel to not render on open",
+                "Fixed inventory qb-inventory version not initializing immediately on load and handling hot-restart",
+                "Fixed weed lab points and IPL not initializing on enter due to mismatched lifecycle events"
             ]
         }
     ]
