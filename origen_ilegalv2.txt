@@ -1,20 +1,22 @@
 {
-    "version": "1.0.4",
+    "version": "1.0.5",
     "updates": [
         {
             "type": "^3FIX",
             "changes": [
-                "Fixed quick menu search action not working with ox_inventory, added customizable dead/cuffed gate",
-                "Fixed radio suppressing no-radio notification on menu open, now only shows on tab switch",
-                "Fixed admin panel gang config limits always resetting to default values",
-                "Fixed inventory RegisterStash implementation and OpenStash relay flow for qs-inventory",
-                "Fixed admin vehicle catalog edit/delete failing due to undefined gangId in server callbacks"
+                "Fixed quick menu self-targeting on handcuff, escort and put-in-vehicle actions",
+                "Fixed panel, quickmenu and interaction points not blocking when gang is inactive or has 0 points",
+                "Fixed stash, garage, bank, labs, stores and crafting not blocking when gang is inactive",
+                "Fixed qs-inventory bridge missing OpenPlayerInventory implementation",
+                "Fixed item image paths across all inventory bridges to use cfx-nui protocol",
+                "Fixed qb-inventory rob player flow to use OpenInventoryById with legacy fallback",
+                "Updated grinder and bagger station coords in weed lab"
             ]
         },
         {
             "type": "^5FEAT",
             "changes": [
-                "Added click-to-expand detail modal for announcements in gang and admin panels"
+                "Added custom bridge support for all bridge systems (inventory, garage, stash, etc.)"
             ]
         }
     ]
