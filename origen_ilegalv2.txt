@@ -1,20 +1,24 @@
 {
-    "version": "1.0.6",
+    "version": "1.0.7",
     "updates": [
         {
             "type": "^5FEAT",
             "changes": [
-                "Quick menu now opens without requiring mouse focus, with keyboard navigation and focus toggle support"
+                "Quick menu now supports scroll and click navigation, and blocks attack inputs while open",
+                "Added DefaultMouseFocus config option to control initial focus state when opening quick menu",
+                "Admin drugs now support configurable animation, progressbar, movement lock and 3D prop for drug consumption"
             ]
         },
         {
             "type": "^3FIX",
             "changes": [
-                "Fixed PTT not activating microphone with LMENU and double gang_ prefix in group ID",
-                "Fixed NUI focus not releasing when closing gang creation wizard with ESC",
-                "Fixed item image URL normalization across all inventory bridges",
-                "Restored dry slot state and props on weed lab re-enter",
-                "Scoped clearIplPlants to vanilla plant sets only, preventing purchased upgrades from being wiped"
+                "Removed invincibility from drug sale NPCs",
+                "Fixed forSale always being true due to lua boolean or pattern, and synced drug list to gameplay clients",
+                "Replaced os.time() with GetCloudTimeAsInt() on client to fix nil crash when placing plants to dry",
+                "Fixed operator precedence crash when counting drug list in debug print",
+                "Delayed item delivery until progressbar completes and freeze player movement during weed harvest",
+                "Centralized gang membership sync to fix missing client update after recruit",
+                "Item image resolution now tries lowercase and uppercase filename variants for Linux compatibility"
             ]
         }
     ]
