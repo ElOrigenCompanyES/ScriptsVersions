@@ -1,0 +1,29 @@
+{
+    "version": "1.0.1",
+    "updates": [
+        {
+            "type": "^5FEAT",
+            "changes": [
+                "Add blacklist zones system to prevent graffiti in restricted areas",
+                "Add date-based sort order toggle to graffiti list"
+            ]
+        },
+        {
+            "type": "^3FIX",
+            "changes": []
+        },
+        {
+            "type": "^4STYLE",
+            "changes": [
+                "Rework admin panel UI, align tabs/debug/search to design system and add dev bridge"
+            ]
+        },
+        {
+            "type": "^6CHORE",
+            "changes": [
+                "Migrate version checker to semver parsing with grouped update notes",
+                "Split heavy vendors into lazy chunks to reduce initial bundle size"
+            ]
+        }
+    ]
+}
