@@ -1,24 +1,28 @@
 {
-    "version": "1.0.7",
+    "version": "1.0.8",
     "updates": [
         {
             "type": "^5FEAT",
             "changes": [
-                "Quick menu now supports scroll and click navigation, and blocks attack inputs while open",
-                "Added DefaultMouseFocus config option to control initial focus state when opening quick menu",
-                "Admin drugs now support configurable animation, progressbar, movement lock and 3D prop for drug consumption"
+                "Admin panel now supports full rank management from the gang editor",
+                "Quick menu now blocks dead players from opening it or searching others",
+                "Drug sale zone auto-cancels session when player runs out of drugs",
+                "Drug sale option is hidden from quick menu when player has no sellable drugs"
             ]
         },
         {
             "type": "^3FIX",
             "changes": [
-                "Removed invincibility from drug sale NPCs",
-                "Fixed forSale always being true due to lua boolean or pattern, and synced drug list to gameplay clients",
-                "Replaced os.time() with GetCloudTimeAsInt() on client to fix nil crash when placing plants to dry",
-                "Fixed operator precedence crash when counting drug list in debug print",
-                "Delayed item delivery until progressbar completes and freeze player movement during weed harvest",
-                "Centralized gang membership sync to fix missing client update after recruit",
-                "Item image resolution now tries lowercase and uppercase filename variants for Linux compatibility"
+                "Blocked frozen peds, animals and blacklisted models from being targeted in item-based drug sales",
+                "Street sale notification now correctly shows 'no NPCs nearby' instead of 'no players nearby'",
+                "Replaced forceOpenInventory with standard flow to fix persistent blur when closing stash",
+                "Converted nil to json.null in upsertDB to prevent oxmysql bind error on admin drugs"
+            ]
+        },
+        {
+            "type": "^6CHORE",
+            "changes": [
+                "Migrated all FontAwesome icons to Iconify format across quick menu and rank permissions"
             ]
         }
     ]
