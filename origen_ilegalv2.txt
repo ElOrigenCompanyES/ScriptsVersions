@@ -1,28 +1,20 @@
 {
-    "version": "1.0.8",
+    "version": "1.0.9",
     "updates": [
         {
             "type": "^5FEAT",
             "changes": [
-                "Admin panel now supports full rank management from the gang editor",
-                "Quick menu now blocks dead players from opening it or searching others",
-                "Drug sale zone auto-cancels session when player runs out of drugs",
-                "Drug sale option is hidden from quick menu when player has no sellable drugs"
+                "Announcements now support coordinates with GPS waypoint marking",
+                "Announcements include client-side search by title, description and author"
             ]
         },
         {
             "type": "^3FIX",
             "changes": [
-                "Blocked frozen peds, animals and blacklisted models from being targeted in item-based drug sales",
-                "Street sale notification now correctly shows 'no NPCs nearby' instead of 'no players nearby'",
-                "Replaced forceOpenInventory with standard flow to fix persistent blur when closing stash",
-                "Converted nil to json.null in upsertDB to prevent oxmysql bind error on admin drugs"
-            ]
-        },
-        {
-            "type": "^6CHORE",
-            "changes": [
-                "Migrated all FontAwesome icons to Iconify format across quick menu and rank permissions"
+                "Lab upgrades now broadcast IPL snapshot to all players inside the lab on upgrade buy or active variant change",
+                "Announcement card height, font-family var placement and long text wrapping corrected",
+                "Territories: sync gang_territories on admin base territory assignment",
+                "Drug sales: prevent menu reopen during active sale and fix false customer-left on confirm"
             ]
         }
     ]
