@@ -1,20 +1,22 @@
 {
-    "version": "1.0.9",
+    "version": "1.1.0",
     "updates": [
         {
             "type": "^5FEAT",
             "changes": [
-                "Announcements now support coordinates with GPS waypoint marking",
-                "Announcements include client-side search by title, description and author"
+                "Gang marketplace system added for inter-gang trading",
+                "Quick menu can now be closed with Escape and Backspace when NUI has focus"
             ]
         },
         {
             "type": "^3FIX",
             "changes": [
-                "Lab upgrades now broadcast IPL snapshot to all players inside the lab on upgrade buy or active variant change",
-                "Announcement card height, font-family var placement and long text wrapping corrected",
-                "Territories: sync gang_territories on admin base territory assignment",
-                "Drug sales: prevent menu reopen during active sale and fix false customer-left on confirm"
+                "Stash: replaced invalid warn calls with the correct warning method",
+                "Gang creation: default ranks now loaded from server config instead of hardcoded UI values",
+                "CAD: prevent modal from hanging after a purchase is completed",
+                "i18n: replaced hardcoded Spanish strings with locale keys",
+                "Stores: force float heading on NPC spawn and save to fix ignored heading on CreatePed",
+                "Lab weed: added DryInteractDistance to prevent dry slot overlap triggering wrong action"
             ]
         }
     ]
