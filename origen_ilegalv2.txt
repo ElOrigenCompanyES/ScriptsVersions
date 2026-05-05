@@ -1,22 +1,18 @@
 {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "updates": [
         {
             "type": "^5FEAT",
             "changes": [
-                "Gang marketplace system added for inter-gang trading",
-                "Quick menu can now be closed with Escape and Backspace when NUI has focus"
+                "Robbery request: added toast notification and tab badge for approved/rejected requests",
+                "Permissions: added search bar and redesigned permission items in rank modal"
             ]
         },
         {
             "type": "^3FIX",
             "changes": [
-                "Stash: replaced invalid warn calls with the correct warning method",
-                "Gang creation: default ranks now loaded from server config instead of hardcoded UI values",
-                "CAD: prevent modal from hanging after a purchase is completed",
-                "i18n: replaced hardcoded Spanish strings with locale keys",
-                "Stores: force float heading on NPC spawn and save to fix ignored heading on CreatePed",
-                "Lab weed: added DryInteractDistance to prevent dry slot overlap triggering wrong action"
+                "Ranks: added request_robbery permission to rank management UI and default ranks",
+                "Admin: replaced nil bind params with json.null to prevent oxmysql undefined error"
             ]
         }
     ]
