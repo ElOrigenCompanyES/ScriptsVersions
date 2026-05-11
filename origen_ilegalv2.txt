@@ -1,18 +1,21 @@
 {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "updates": [
         {
             "type": "^5FEAT",
             "changes": [
-                "Robbery request: added toast notification and tab badge for approved/rejected requests",
-                "Permissions: added search bar and redesigned permission items in rank modal"
+                "Drug sales: expose customer NPC spawn distance range in config",
+                "Garage: add optional forced color per vehicle in catalog"
             ]
         },
         {
             "type": "^3FIX",
             "changes": [
-                "Ranks: added request_robbery permission to rank management UI and default ranks",
-                "Admin: replaced nil bind params with json.null to prevent oxmysql undefined error"
+                "Quick menu: prevent double navigation when toggling focus mode",
+                "Territories: defer zone remove to prevent invalid key crash in ox_lib",
+                "Admin: handle json.null from NUI in toDb to prevent oxmysql bind crash",
+                "Locales: migrate hardcoded drug territory reputation strings to translation system",
+                "Admin: fix [object Object] in gang and drug delete confirmation modals"
             ]
         }
     ]
