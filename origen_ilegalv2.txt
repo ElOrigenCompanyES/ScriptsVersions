@@ -1,15 +1,16 @@
 {
-    "version": "1.1.4",
+    "version": "1.1.5",
     "updates": [
+        {
+            "type": "^5FEAT",
+            "changes": [
+                "Drug sales: award gang XP on completed drug sales"
+            ]
+        },
         {
             "type": "^3FIX",
             "changes": [
-                "Stash: use citizenid as owner for personal stash and clear stale bridge cache",
-                "Marketplace: replace native confirm() with ConfirmModal for rule deletion",
-                "Drug sales: fix permanent freeze after zone sale trade animation",
-                "Admin: replace json.null with nil in toDb helpers to prevent oxmysql val.slice error",
-                "Locales: add missing admin.item_locked_hint_store translation key",
-                "Locales: guard nil opts when locale has format placeholders and warn with key info"
+                "Admin: replace MySQL.insert with rawExecute on drug sales custom INSERT"
             ]
         }
     ]
