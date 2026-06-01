@@ -1,16 +1,11 @@
 {
-    "version": "1.1.5",
+    "version": "1.1.6",
     "updates": [
-        {
-            "type": "^5FEAT",
-            "changes": [
-                "Drug sales: award gang XP on completed drug sales"
-            ]
-        },
         {
             "type": "^3FIX",
             "changes": [
-                "Admin: replace MySQL.insert with rawExecute on drug sales custom INSERT"
+                "Garage: enable scroll on vehicles list when overflow",
+                "Handcuff: prevent cuffed players from cuffing or escorting others"
             ]
         }
     ]
